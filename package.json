@@ -1,8 +1,8 @@
 {
-  "name": "oicq",
+  "name": "qqbn",
   "version": "2.3.1",
   "upday": "2022/6/21",
-  "description": "QQ protocol!",
+  "description": "QQ protocol! QQ Bot via NodeJS",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -11,20 +11,21 @@
   "engines": {
     "node": ">= v14"
   },
-  "repository": "https://github.com/takayama-lily/oicq",
+  "repository": "https://github.com/baizhi958216/qqbn",
   "keywords": [
     "qq",
     "oicq",
     "protocol",
     "android",
     "bot",
-    "coolq"
+    "coolq",
+    "qqbn"
   ],
-  "author": "takayama",
+  "author": "baizhi958216",
   "license": "MPL-2.0",
-  "bugs": "https://github.com/takayama-lily/oicq/issues",
-  "homepage": "https://github.com/takayama-lily/oicq#readme",
-  "changelogs": "https://github.com/takayama-lily/oicq/releases",
+  "bugs": "https://github.com/baizhi958216/qqbn/issues",
+  "homepage": "https://github.com/baizhi958216/qqbn#readme",
+  "changelogs": "https://github.com/baizhi958216/qqbn/releases",
   "dependencies": {
     "axios": "^1.1.2",
     "log4js": "^6.3.0",
