@@ -228,7 +228,7 @@ export abstract class Contactable {
 				}
 				resolve([width, height, seconds])
 			})
-		})
+		}) as number[]
 		const md5video = await md5Stream(fs.createReadStream(file))
 		const md5thumb = await md5Stream(fs.createReadStream(thumb))
 		const name = md5video.toString("hex") + ".mp4"
