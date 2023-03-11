@@ -1,12 +1,13 @@
 {
   "name": "qqbn",
-  "version": "2.3.1",
-  "upday": "2022/6/21",
+  "version": "1.0.1",
+  "upday": "2023/3/11",
   "description": "QQ protocol! QQ Bot via NodeJS",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "test": "tsc && node ./bin/oicq"
+    "test": "tsc && node ./bin/qqbn",
+    "build": "tsc"
   },
   "engines": {
     "node": ">= v14"
@@ -31,7 +32,8 @@
     "log4js": "^6.3.0",
     "long": "^4.0.0",
     "pngjs": "^6.0.0",
-    "probe-image-size": "^7.2.2"
+    "probe-image-size": "^7.2.2",
+    "typescript": "^4.9.5"
   },
   "devDependencies": {
     "@types/node": "^16.7.2",
