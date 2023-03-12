@@ -1,6 +1,6 @@
 {
   "name": "qqbn",
-  "version": "1.0.1",
+  "version": "1.0.0-rc1",
   "upday": "2023/3/11",
   "description": "QQ protocol! QQ Bot via NodeJS",
   "main": "lib/index.js",
